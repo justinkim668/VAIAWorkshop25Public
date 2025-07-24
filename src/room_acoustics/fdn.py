@@ -57,6 +57,7 @@ class FeedbackDelayNetwork:
 
         if feedback_matrix_type == 'identity':
             ## WRITE YOUR CODE HERE ##
+            Q = np.identity(self.N)
             pass 
         elif feedback_matrix_type == 'random':
             # this is one way to generate a random orthogonal matrix based on QR decomposition
